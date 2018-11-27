@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  hashexemple:
+    image: ${DOCKER_REGISTRY-}hashexemple
+    build:
+      context: .
+      dockerfile: HashExemple\Dockerfile
